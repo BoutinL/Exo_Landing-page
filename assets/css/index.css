@@ -1,0 +1,104 @@
+*, :before, :after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.background-font{
+    background: radial-gradient(rgb(139, 195, 245),#1294b8);
+    font-family: 'Poppins'
+}
+
+.navbar{
+    color: white;
+    padding: 2%;
+    transition: all 0.4s;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+li{
+    transition: transform 1s;
+}
+
+li:hover{
+    transform: scale(1.5);
+}
+
+.category-onglet{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+    list-style-type: none;
+}
+
+
+.category-social{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 10%;
+    list-style-type: none;
+}
+
+
+.link-nav{
+    text-decoration: none;
+    color: white;
+}
+
+.svg{
+    width : 25px;
+    height :  auto;
+}
+
+.homepage{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.homepagecontent{
+    justify-content: center;
+}
+
+h1{
+    font-size: 30px;
+    width: 30%;
+    display: inline-flex;
+    justify-content: center;
+}
+h2{
+    font-size: 50px;
+    font-weight:bolder;
+}
+
+.newsletterbox{
+    border-radius: 35px;
+    width: 60%;
+    display: inline-flex;
+}
+
+.newsletterinput{
+    padding: 20px;
+    border-radius: 35px;
+    border: none;
+    width: 100%;
+    opacity: 0.60;
+
+}
+.subscribebtn{
+    padding: 15px;
+    border-radius: 35px;
+    width: 45%;
+    background-color: #1294b8;
+    color: white;
+    border: none;
+}
+
+.homepicture{
+    width: 40%;
+    height: auto;
+}

@@ -140,7 +140,7 @@ form{
     align-items: center;
 }
 
-.featureintro{
+.feature-intro{
     width: 30%;
     margin: 2%;
 }
@@ -205,4 +205,39 @@ h4{
 
 .p-howitworks{
     width: 35%;
+}
+
+/* Equipe part */
+
+.equipe-intro{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.equipe-intro>p, h3{
+    width: 45%;
+    margin-top: 2%;
+}
+
+
+.card-equipe{
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    width: 20%;
+    height: auto;
+}
+
+.img-equipe{
+    border-radius: 50%;
+    filter: grayscale(100%);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.img-equipe>p{
+    padding-top: 1%;
+    padding-bottom: 1%;
 }

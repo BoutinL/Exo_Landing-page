@@ -113,7 +113,7 @@ form{
 .subscribebtn{
     border-radius: 35px;
     width: 45%;
-    background-color: #1294b8;
+    background-color: #0e6780;
     color: white;
     border: none;
 
@@ -148,6 +148,7 @@ h3{
     display: inline-flex;
     justify-content: space-evenly;
     width: 85%;
+    padding: 2%;
 }
 
 .card{

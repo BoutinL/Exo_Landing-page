@@ -134,10 +134,12 @@ form{
 /* Features part */
 
 .features{
+    min-height: 100vh;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .feature-intro{
@@ -210,9 +212,11 @@ h4{
 /* Equipe part */
 
 .equipe{
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .equipe-intro{
@@ -233,6 +237,8 @@ h4{
     flex-direction: column;
     width: 20%;
     height: auto;
+    cursor: pointer;
+    position: relative;
 }
 
 .img-equipe{
@@ -240,6 +246,21 @@ h4{
     filter: grayscale(100%);
     padding-top: 5%;
     padding-bottom: 5%;
+    transition: transform 1s;
+}
+
+.img-equipe:hover{
+    transform: scale(1.1);
+    filter: initial;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left:20px;
+    bottom: 40%;
+    transform: translate(-50%);
 }
 
 .img-equipe>p{

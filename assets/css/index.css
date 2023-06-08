@@ -209,6 +209,12 @@ h4{
 
 /* Equipe part */
 
+.equipe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .equipe-intro{
     text-align: center;
     display: flex;
@@ -216,11 +222,10 @@ h4{
     align-items: center;
 }
 
-.equipe-intro>p, h3{
+.equipe-intro>p, .equipe-intro>h3{
     width: 45%;
     margin-top: 2%;
 }
-
 
 .card-equipe{
     text-align: center;

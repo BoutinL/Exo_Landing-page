@@ -267,3 +267,51 @@ h4{
     padding-top: 1%;
     padding-bottom: 1%;
 }
+
+/* Parallax */
+
+.parallax{
+    background-image: url("../../assets/img/parallax.png");
+    background-attachment: fixed; /* Fixe l'image pendant le scroll */
+    background-size: cover; /* L'image prendra 100% de l'espace, quitte à la crop */
+    background-position: center; /* Centre la position de l'image */
+    background-repeat: no-repeat; /* Empêche l'image de se répéter en fonction de la taille d'écran */
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    filter:brightness(60%);
+}
+
+.getstarted{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    filter: none;
+}
+
+.getstarted>h3{
+    color: white;
+    font-size: 40px;
+}
+
+.getstarted>p{
+    color: white;
+}
+
+.started{
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    border-radius: 15px;
+    border-color: white;
+    transition: 1s;
+}
+
+.started:hover{
+    transform: scale(1.1);
+}

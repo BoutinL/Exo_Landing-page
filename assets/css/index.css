@@ -253,7 +253,7 @@ h4{
 
 .box-img-social:hover .icon{
     left:8%;
-    top:100px
+    top:80px
 }
 
 .box-img-social:hover{
@@ -283,6 +283,7 @@ h4{
 .icon>a{
     background-color: white;
     border-radius: 50%;
+    margin-top: 60%;
 }
 
 span{
@@ -348,3 +349,78 @@ span{
     color: grey;
     border-color: none;
 }
+
+/* Blog part */
+
+.blog{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-intro{
+    width: 40%;
+    margin: 2%;
+    text-align: center;
+}
+
+.card-blog{
+    display: inline-flex;
+    flex-direction: column;
+    width: 30%;
+    transition: 1s;
+}
+
+.img-blog{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.content-blog>h4{
+    font-size: 22px;
+    color: black;
+}
+
+.content-blog>span>a{
+    text-decoration: none;
+    color: #1294b8;
+}
+
+.header-blog{
+    position: relative;
+}
+
+.auteur{
+    background-color: rgba(0, 0, 0, 0.77);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 15px;
+    visibility: hidden;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.header-blog:hover .auteur{
+    visibility: visible;
+}
+
+.auteur>i>span{
+    padding-left: 5%;
+}
+
+.auteur>i{
+    margin: 2%;
+}
+
+/* Pricing part */

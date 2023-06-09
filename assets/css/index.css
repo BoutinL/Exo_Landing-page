@@ -68,6 +68,7 @@ li:hover{
     justify-content: space-evenly;
     padding-top: 5%;
     padding-bottom: 5%;
+    align-items: center;
 }
 
 /* Homepage part */
@@ -91,8 +92,8 @@ h2{
 }
 
 p{
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     color:dimgrey;
 }
 
@@ -174,7 +175,7 @@ h3{
 }
 
 .card:hover{
-    transform: translateY(-50px);
+    transform: translateY(-30px);
 }
 
 .svg-feature{
@@ -228,7 +229,6 @@ h4{
 
 .equipe-intro>p, .equipe-intro>h3{
     width: 45%;
-    margin-top: 2%;
 }
 
 .card-equipe{
@@ -258,9 +258,8 @@ h4{
     display: flex;
     flex-direction: column;
     position: absolute;
-    left:20px;
-    bottom: 40%;
-    transform: translate(-50%);
+    bottom: 60%;
+    left: -10%;
 }
 
 .img-equipe>span{

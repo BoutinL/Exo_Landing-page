@@ -423,4 +423,53 @@ span{
     margin: 2%;
 }
 
+.bald{
+    font-weight: 900;
+}
+
 /* Pricing part */
+
+.pricing{
+
+}
+.price-content{
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:2%;
+}
+
+.intro-pricing{
+    width: 30%;
+    text-align: center;
+}
+
+.cardbox-pricing{
+    width: 80%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    padding-top: 3%;
+}
+
+.card-pricing{
+    background-color: white;
+    width: 30%;
+    height: auto;
+    padding: 2%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.module{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    background-color: #16abd4;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}

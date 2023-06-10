@@ -167,7 +167,7 @@ h3{
     width: 400px;
     height: 400px;
     padding: 2%;
-    box-shadow: 3px 1px 1px grey;
+    box-shadow: 8px 5px 5px rgb(190, 190, 190);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -463,13 +463,50 @@ span{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: 8px 5px 5px rgb(190, 190, 190);
+    transition: 1s;
+}
+
+.card-pricing:hover{
+    transform: translateY(-30px);
+}
+
+.card-pricing>b{
+    font-size: 25px;
+}
+
+.price{
+    color:#16abd4;
+    font-weight: 500;
+    font-size: 60px;
 }
 
 .module{
     width: 100%;
     display: inline-flex;
     justify-content: space-between;
-    background-color: #16abd4;
     padding-top: 3%;
     padding-bottom: 3%;
 }
+.module>i>span{
+    font-family: 'Poppins';
+    color: black;
+}
+
+.join-btn{
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    background-color:#16abd4;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    transition: 0.5s;
+    filter: inherit;
+    transition: 1s;
+}
+
+.join-btn:hover{
+    transform: scale(1.05);
+}
+

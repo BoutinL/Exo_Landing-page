@@ -31,7 +31,7 @@ li{
 }
 
 li:hover{
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
 
 .category-onglet{
@@ -55,6 +55,10 @@ li:hover{
 .link-nav{
     text-decoration: none;
     color: white;
+}
+
+.link-nav:hover{
+    color:#d1d1d1;
 }
 
 .svg{
@@ -114,14 +118,16 @@ form{
     border: none;
     width: 100%;
     background-color: #e7e8e8;
-    opacity: 0.6;
+    opacity: 0.8;
+    font-size: 15px;
 }
 
 .subscribebtn{
     border-radius: 35px;
     width: 45%;
     background-color: #0e6780;
-    color: white;
+    color: white;   
+    font-size: 18px;
 }
 
 .subscribebtn:hover{
@@ -380,6 +386,11 @@ span{
 
 .clients-img{
     width: 15%;
+    filter: grayscale(1);
+}
+
+.clients-img:hover{
+    filter: brightness(100%);
 }
 
 /* Pricing part */
@@ -506,6 +517,21 @@ span{
     width: 100%;
     height: 60px;
     font-size: 20px;
+    background-color:#ffffff;
+    color:#1294b8;
+    border-radius: 15px;
+    border: none;
+    transition: 0.5s;
+    filter: inherit;
+    transition: 1s;
+    margin-top: 5%;
+    border: solid 1px #1294b8;
+}
+
+.join-btn-sale{
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
     background-color:#16abd4;
     color: white;
     border-radius: 15px;
@@ -516,7 +542,7 @@ span{
     margin-top: 5%;
 }
 
-.join-btn:hover{
+.join-btn:hover, .join-btn-sale:hover{
     transform: scale(1.05);
 }
 
@@ -643,6 +669,7 @@ main {
     position: sticky;
     top: 88vh;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .circle{
@@ -652,7 +679,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(47, 47, 47);;
+    background-color: rgb(82, 82, 82);;
 }
 /* Footer part */
 

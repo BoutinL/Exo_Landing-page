@@ -122,9 +122,8 @@ form{
     width: 45%;
     background-color: #0e6780;
     color: white;
-    border: none;
-
 }
+
 .subscribebtn:hover{
     background-color: #16abd4;
 }
@@ -616,3 +615,43 @@ span{
 .bald{
     font-weight: 900;
 }   
+
+/* Footer part */
+
+footer{
+    background-color: rgb(47, 47, 47);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-content{
+    width: 35%;
+}
+
+.footer-social-link, .footer-links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-social-link>i{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: solid #d1d1d1 2px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+}
+
+.footer-links>a, span{
+    text-decoration: none;
+    color: #d1d1d1;
+}

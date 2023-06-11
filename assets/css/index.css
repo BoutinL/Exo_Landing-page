@@ -429,9 +429,6 @@ span{
 
 /* Pricing part */
 
-.pricing{
-
-}
 .price-content{
     background-color: rgb(230, 230, 230);
     display: flex;
@@ -441,9 +438,24 @@ span{
     padding:2%;
 }
 
+.pricing-p{
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.description-pricing{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
 .intro-pricing{
     width: 30%;
     text-align: center;
+}
+
+.pricing-img{
+    width: 30%;
 }
 
 .cardbox-pricing{
@@ -481,6 +493,17 @@ span{
     font-size: 60px;
 }
 
+.stats-container{
+    display: inline-flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.stats{
+    display: flex;
+    flex-direction: column;
+}
+
 .module{
     width: 100%;
     display: inline-flex;
@@ -489,6 +512,11 @@ span{
     padding-bottom: 3%;
 }
 .module>i>span{
+    font-family: 'Poppins';
+    color: black;
+}
+
+.module>span{
     font-family: 'Poppins';
     color: black;
 }
@@ -504,9 +532,28 @@ span{
     transition: 0.5s;
     filter: inherit;
     transition: 1s;
+    margin-top: 5%;
 }
 
 .join-btn:hover{
     transform: scale(1.05);
+}
+
+.learn-btn{
+    width: 40%;
+    height: 60px;
+    font-size: 20px;
+    background-color:#16abd4;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    transition: 0.5s;
+    filter: inherit;
+    transition: 1s;
+    margin-top: 5%;
+}
+
+.learn-btn:hover{
+    transform: scale(1.1);
 }
 

@@ -614,8 +614,46 @@ span{
 
 .bald{
     font-weight: 900;
-}   
+}
 
+/* Scroll to top */
+
+html {
+    scroll-behavior:smooth;
+}
+
+main {
+    position: relative;
+}
+
+.scroll-container {
+    position: absolute;
+    top: 0;
+    right:30px;
+    height: 100%;
+}
+
+.scroll-container:before {
+    display: block;
+    height: 100vh;
+    pointer-events: none;
+}
+
+.scroll-container a {
+    position: sticky;
+    top: 88vh;
+    cursor: pointer;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(47, 47, 47);;
+}
 /* Footer part */
 
 footer{

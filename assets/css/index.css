@@ -122,12 +122,17 @@ form{
     font-size: 15px;
 }
 
+.newsletterinputtxt:focus{
+    outline: none;
+}
+
 .subscribebtn{
     border-radius: 35px;
     width: 45%;
     background-color: #0e6780;
     color: white;   
     font-size: 18px;
+    border: none;
 }
 
 .subscribebtn:hover{
@@ -352,7 +357,7 @@ span{
     transform: scale(1.1);
     background-color: white;
     color: grey;
-    border-color: none;
+    border: none;
 }
 
 /* Client part */
@@ -376,7 +381,6 @@ span{
 .clients-intro{
     width: 40%;
     text-align: center;
-
 }
 
 .clients-intro>p{
@@ -386,11 +390,13 @@ span{
 
 .clients-img{
     width: 15%;
-    filter: grayscale(1);
+    opacity: 50%;
+    transition: 1s;
 }
 
 .clients-img:hover{
-    filter: brightness(100%);
+    opacity: initial;
+    transform: scale(1.05);
 }
 
 /* Pricing part */
